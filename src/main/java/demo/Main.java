@@ -61,28 +61,20 @@ public class Main {
 			x.printStackTrace();
 		}
 
-//	    ServiceTracker mst = new ServiceTracker<>(f.getBundleContext(), Activator.class, null);
-//	    f.getBundleContext().addServiceListener(new ServiceListener() {
-//			
-//			@Override
-//			public void serviceChanged(ServiceEvent arg0) {
-//				
-//			}
-//		});
-
 	    /*
 	    Set<String> inUse = new HashSet<String>();
 	    for (ServiceReference sr : f.getServicesInUse()) {
 	    	inUse.add(sr.toString());
-	    }*/
-
-	    for (ServiceReference sr : f.getRegisteredServices()) {
-//	    	String flag = (inUse.contains(sr.toString()) ? "[in use]" : "[      ]");
-//	    	System.out.println("+ registered service: " + flag + " " + sr.toString());
-	    	System.out.println("+ registered service: " + sr.toString());
 	    }
 
-		System.out.println("end");
+	    for (ServiceReference sr : f.getRegisteredServices()) {
+	    	String flag = (inUse.contains(sr.toString()) ? "[in use]" : "[      ]");
+	    	System.out.println("+ registered service: " + flag + " " + sr.toString());
+	    	System.out.println("+ registered service: " + sr.toString());
+	    }
+            */
+
+            System.out.println("end");
 	}
 
 }
