@@ -22,7 +22,7 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
-    compile files('libs/felix.jar')
+    compile 'org.apache.felix:org.apache.felix.main:6.0.0'
     compile project('core')
     compile project('plugin1')
     compile project('plugin2')
