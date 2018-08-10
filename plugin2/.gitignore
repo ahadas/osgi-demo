@@ -1,0 +1,6 @@
+bin
+build
+felix-cache
+.project
+.classpath
+.settings

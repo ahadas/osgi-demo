@@ -1,0 +1,5 @@
+include 'core'
+include 'plugin1'
+include 'plugin2'
+
+rootProject.name = 'osgi-demo'
