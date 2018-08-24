@@ -14,6 +14,7 @@ public class Main {
 	public static void main(String[] args) {
 		// https://stackoverflow.com/questions/1887809/how-to-start-and-use-apache-felix-from-code
 		// https://github.com/apache/felix/blob/trunk/main/src/main/java/org/apache/felix/main/Main.java
+		// http://felix.apache.org/documentation/subprojects/apache-felix-framework/apache-felix-framework-launching-and-embedding.html
 		System.out.println("starting");
 		Map<String, Object> map = new HashMap<>();
 		Framework f = new FrameworkFactory().newFramework(map);
